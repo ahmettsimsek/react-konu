@@ -25,11 +25,11 @@ yazarız. bunun çalışmasını sağlayan içerik package.json dosyası içinde
 - App.js kısmı ekranda gördüklerimi tarayıcıda bastırdığım kısım
 - index.js ise bunu render ettiğim kısım.
 
-  ## src içerisindeki index.js
-  Sen bir tane App.js oluşturmussun, ben bu app.js'i indirilmiş olan React ve ReactDOM üzerinden render edicem yani tarayıcı üzerinde gösterilmesini sağlayacam.
+## src içerisindeki index.js
+- Sen bir tane App.js oluşturmussun, ben bu app.js'i indirilmiş olan React ve ReactDOM üzerinden render edicem yani tarayıcı üzerinde gösterilmesini sağlayacam.
 
-  ## src içerisindeki App.js
-  Benim tarayıcı üzerinden çalışmasını istediğim şeyleri buraya yazdığım yapılar.
+## src içerisindeki App.js
+- Benim tarayıcı üzerinden çalışmasını istediğim şeyleri buraya yazdığım yapılar.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ### JSX nedir?
