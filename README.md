@@ -30,7 +30,7 @@ yazarız. bunun çalışmasını sağlayan içerik package.json dosyası içinde
 
   ## src içerisindeki App.js
   Benim tarayıcı üzerinden çalışmasını istediğim şeyleri buraya yazdığım yapılar.
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ### JSX nedir?
 - ben App.js dosyamda return üzerinde herhangi bir değişken tanımlayabilirim aşağıdaki gibi. Normalde js de const ile tanımladığım ifadeyi <div> içerisinde yazamam ancak burada div içerisine gelerek tanımladığımız şeyi yazarsak hala altı çizgili gelir ama ben yukarıda tanımladığım fonksiyonu kullanmak istiyorum div içerisinde  {} süslü parantez içerisinde yazarsam rengi bile değişir hata vermeden çalışır.  Web sayfamıza bakarsak geldiğini de görmüş oluruz.
