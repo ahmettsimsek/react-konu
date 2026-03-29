@@ -3,18 +3,19 @@ import Deneme from "./components/deneme"
 
 function App() {
 
+  const atama = "props mantığı"
   return (
     <div className="App"> 
       {/*COMPONENT MANTIĞI */}
       <Berkant/>
-      <Deneme/>
+      <Deneme props={atama}/>
 
     </div>
   );
 }
-//component, bizim sayfalarda kullanacağımız yapıları parçalaya parçalaya klasörler içerisine dağıtmamıza ve gerektiğinde çekmemize yardımcı olan yapılardır. Örneğin 3 ttane div olsun hepsinin aynı app.js sayfada render edilmesi mantıklı mı değil tabiki burada component mantığı ortaya çıkar. src altında klasör oluşturucaz bu sebeple.  
+// Ben component oluşturdum, içerisine yazılar da oluşturdum, ben app.js üzerinden bir bilgiye componentlerimin sayfasına gönderebilir miyim veya bu sayfaların iiçerisinde karşılayıp yazdırabilir miyim dersem burada karşıma props kavramı cıkacaktır.  
 
-// index.js bizi sadece app içerisindekileri render ediyor aşağıdaki gibi yani sadece app üzerindeki şeyleri gösteriyor demek yani eklediğimiz componentleri göremeyiz demektir eklemez isek 
+// APP.JS sayfam üzerinden, componentin içine bir şey göndermek istiyorsam istediğim isimle x={} şeklinde parantez içerisine eklerim. 
 
-// gördüğümüz gibi component içerisinde birsürü işlem yapsak da burada 1 satır halinde yazdık ve app.js içerisi hep temiz şekilde kalacaktır. 
+// ben bu x'i component sayfasına gönderdim ancak onun haberi var mı dersek, o component sayfasına gidiyoruz, burada fonksiyon içerisindeki parantez içerisine süslü parantez ile  yazarız tanımladığımız ismi çünkü orada gelir olduğu belli olsun bu. 
 export default App;
