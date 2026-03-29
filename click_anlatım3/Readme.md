@@ -20,7 +20,7 @@ function App() {
     </div>
   );
 }
-#🏗️ 2. JSX İçerisinde JavaScript Kullanımı
+# 🏗️ 2. JSX İçerisinde JavaScript Kullanımı
 React fonksiyonel bileşenlerinde iki ana bölge vardır:
 
 Return Öncesi (Mantık Katmanı): JavaScript kodlarımızı, değişkenlerimizi ve fonksiyonlarımızı tanımladığımız yerdir.
