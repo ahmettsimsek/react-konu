@@ -28,4 +28,6 @@ function App() {
 // yazım şekli {değişkenismi.map ((atamaisim,index) => ( <div></div>))}
 
 // Oluşturduğumuz array içerisini tek tek index index gexiyorum, arrayin her bir elemanını alıyorum atamaisme aktarıyorum , aldığım her elemanın isimlerini yazdırmış olurum. 
+
+// eğer array içerisinde id olmasaydı bu şekilde map içerisinde index atamasıyla yazdırıp key kısmına bunu yazmak daha mantıklı ancak direk içerisinde id olduğu için direk array'i atadığımız isim.id ismi ile de key çalıştırılabilir. 
 export default App;
