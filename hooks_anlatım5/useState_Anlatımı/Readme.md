@@ -3,7 +3,7 @@ React'ta bir bileşenin (component) durumunu (state) yönetmek için en çok kul
 
 # 📝 Temel Yapı ve Tanımlama
 useState bize iki değer döndürür: güncel değer ve bu değeri değiştirmemizi sağlayan bir fonksiyon.
-
+```
 JavaScript
 const [deger, setDeger] = useState(baslangicDegeri);
 deger: Saklamak istediğimiz verinin kendisi.
@@ -11,13 +11,16 @@ deger: Saklamak istediğimiz verinin kendisi.
 setDeger: Bu veriyi güncellemek için kullanacağımız özel fonksiyon.
 
 baslangicDegeri: Değişkenin ilk hali (Sayı, String, Array, Obje veya Boolean olabilir).
+```
 
 # 🚀 Örnek Kullanım Senaryoları
+```
 JavaScript
 const [count, setCount] = useState(0);             // Sayısal değer
 const [renk, setRenk] = useState('blue');          // String değer
 const [user, setUser] = useState({name: "Ahmet"}); // Obje (Array de olabilir)
 const [status, setStatus] = useState(true);        // Boolean (Mantıksal)
+```
 💡 Kritik Bilgiler ve İpuçları
 1. Neden Normal Değişken Değil de State?
 Klasik bir let x = 5 değişkenini güncellediğinizde React sayfanın değiştiğini anlamaz. Ancak setCount(6) dediğinizde React, "State değişti, o zaman ekrandaki görüntüyü güncellemeliyim" der.
@@ -39,6 +42,7 @@ if (status) {
   return <div>Durum Pasif ❌</div>;
 }
 # 🛠️ Uygulama Örneği (Sayacı Artırma ve Renk Değiştirme)
+```
 JavaScript
 function App() {
   const [count, setCount] = useState(0);
@@ -56,3 +60,4 @@ function App() {
     </div>
   );
 }
+```
