@@ -8,6 +8,7 @@ function App() {
   // useState ile useRef kullanım mantığı benzerdir. Sadece useState kulanırken her bir değişiklik yapıldığında sürekli yeniden çağırılıcak yeniden render olacaktır yenilenecektir sayfamız, Bazen sayfamızı render etmek istemessek bazen tek değişiklik olduğunda komple orda çalışmasını istiyorum dersem useRef kullanabilirim.
 
   //Önemli bir hooks olmasına rağmen çok sık kullanılan bir hook depğil useRef.
+  // React içinde useState ve useEffect çok kullanılan 2 hooksdur. 
 
   return (
     <> {/*react da en az 1 tane fragment lazım yani sarmalayn bir yapı olması lazım.  Bunu kullanmazsan hata alırsın. Normalde bunu html-css de kullanırken input ile placeholder=text ile girdi almasını sağlardık ve getelementbyıd ile çıktı arardık ancak react bize hook vermiş hazır şekilde.    */}
