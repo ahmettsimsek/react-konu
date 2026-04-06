@@ -35,4 +35,4 @@ export default Home
 
 // sonrasında dışardan fonksiyonumuza değer alımı sağlayacağız, ve son olarak id göre detay sayfasına yönlendirme sağlayacağız ${id} ile. 
 
-// Şimdi de Detail sayfasına giderek, 
+// Şimdi de Detail sayfasına giderek id'e göre tıkladığımız şeyi de ekrana yazdırır, 
