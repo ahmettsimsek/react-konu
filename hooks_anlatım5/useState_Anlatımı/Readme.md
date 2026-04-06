@@ -40,8 +40,7 @@ if (status) {
   return <div>Durum Pasif ❌</div>;
 }
 # 🛠️ Uygulama Örneği (Sayacı Artırma ve Renk Değiştirme)
-```
-JavaScript
+```JavaScript
 function App() {
   const [count, setCount] = useState(0);
   const [renk, setRenk] = useState('blue');
