@@ -10,7 +10,7 @@ React projesinde yönlendirme özelliklerini kullanabilmek için öncelikle gere
 npm install react-router-dom
 ```
 
-🏗️ Temel Yapı ve Bileşenler
+# 🏗️ Temel Yapı ve Bileşenler
 React Router v6 kullanarak sayfa yapısını kurarken şu temel bileşenlerden faydalanıyoruz:
 
 BrowserRouter: Uygulamanın tarayıcıdaki URL geçmişiyle (history) iletişim kurmasını sağlayan ana sarmalayıcıdır.
@@ -45,7 +45,7 @@ function App() {
 ```
 
 export default App;
-💡 Önemli Bilgiler
+## 💡 Önemli Bilgiler
 Dizin Yapısı: Sayfalarımızı temsil eden bileşenleri src klasörü altında pages adlı ayrı bir klasörde toplamak, projenin okunabilirliğini ve yönetilebilirliğini artırır.
 
 Varsayılan Rota: path="/" kuralı, uygulama ilk açıldığında (localhost:3000) kullanıcının karşısına çıkacak olan "Home" sayfasını belirler.
