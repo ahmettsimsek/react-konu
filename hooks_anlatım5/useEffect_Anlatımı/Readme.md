@@ -2,8 +2,7 @@
 useEffect, bileşenin yaşam döngüsü boyunca (ekrana gelme, güncellenme veya ekrandan ayrılma) belirli işlemleri (yan etkileri/side effects) yönetmemizi sağlar. API'den veri çekme, abonelik oluşturma veya manuel DOM güncellemeleri gibi işlemler burada yapılır.
 
 🛠️ Temel Yazım Kuralı (Syntax)
-```
-JavaScript
+```JavaScript
 useEffect(() => {
   // Çalıştırılacak kodlar buraya yazılır
 }, [bağımlılıklar]);
@@ -20,8 +19,7 @@ Dizi Olmaması : Eğer ikinci parametreyi hiç yazmazsanız, bileşendeki herhan
 # 💡 Önemli Kullanım Alanları
 1. API'den Veri Çekme (Fetch)
 Sayfa açılır açılmaz bir veritabanından veri çekmek istiyorsak boş dizi ile kullanırız:
-```
-JavaScript
+```JavaScript
 useEffect(() => {
   fetch('https://api.example.com/data')
     .then(res => res.json())
@@ -30,8 +28,7 @@ useEffect(() => {
 ```
 2. Değişken Takibi (Tetiklenme)
 Bir state değişimine bağlı olarak başka bir işlem yapmak istiyorsak (örneğin status "deneme" olduğunda bir uyarı vermek):
-```
-JavaScript
+```JavaScript
 useEffect(() => {
   console.log("Status değeri güncellendi: ", status);
 }, [status]); // Status her değiştiğinde bu blok çalışır
